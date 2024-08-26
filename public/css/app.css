@@ -1,0 +1,86 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estiliza o conteúdo principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Estiliza os links e botões */
+a, button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Estiliza o botão de Delete com cor diferente */
+button[type="submit"] {
+    background-color: #dc3545;
+}
+
+button[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+/* Estiliza o botão de Add New Item */
+.add-item-button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Estiliza os detalhes do item */
+.item-details {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.item-details p {
+    margin: 0;
+    padding: 5px 0;
+}
+
